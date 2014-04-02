@@ -1,30 +1,7 @@
 {
-  "name": "fbp",
+  "name": "noflo-fbp",
   "description": "Parser for the .fbp flow definition language",
-  "version": "1.1.1",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/noflo/fbp.git"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-cafe-mocha": "~0.1.2",
-    "chai": "~1.5.0",
-    "mocha": "~1.9.0",
-    "grunt-contrib-watch": "~0.3.1",
-    "grunt-peg": "~0.1.0",
-    "grunt-component-build": "~0.2.7",
-    "grunt-mocha-phantomjs": "~0.2.8",
-    "grunt-contrib-uglify": "~0.2.1",
-    "grunt-contrib-coffee": "~0.7.0"
-  },
-  "keywords": [],
-  "scripts": {
-    "test": "grunt test"
-  },
-  "main": "./lib/fbp",
-  "bin": {
-    "fbp": "./bin/fbp"
-  }
+  "version": "1.0.0",
+  "main": "lib/fbp.js",
+  "dependencies": {}
 }
